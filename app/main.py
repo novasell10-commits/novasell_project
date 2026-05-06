@@ -31,6 +31,7 @@ from app.schemas import ErrorResponse, ValidationErrorResponse
 from app.routers import ledger
 from app.routers import orders
 from app.routers import payments
+from app.routers import payouts
 
 # Logging configuration
 logging.basicConfig(
@@ -153,6 +154,8 @@ app.include_router(ledger.router)
 app.include_router(orders.router)
 
 app.include_router(payments.router)
+
+app.include_router(payouts.router)
 
 
 
