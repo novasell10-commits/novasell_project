@@ -1,6 +1,6 @@
-# NovaSell Phase 3 - Authentication & CRUD
+# NovaSell - Authentication & CRUD
 
-## 📋 Contenu Phase 3
+## 📋 Contenu
 
 ✅ **Authentification JWT**
 - Register avec OTP
